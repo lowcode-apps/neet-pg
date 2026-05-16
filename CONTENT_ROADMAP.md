@@ -3,8 +3,9 @@
 ## Progress Tracker
 **Last Updated:** 2026-05-16
 **Total Topics Required:** ~350
-**Topics Completed:** 11
-**Completion:** 3%
+**Topics Completed:** 16
+**Completion:** 5%
+**Clinical Topics Completed:** 5/270 (2%)
 
 ---
 
@@ -18,10 +19,10 @@
 | **Pathology** | 1 | 35 | 3% | HIGH |
 | **Pharmacology** | 1 | 25 | 4% | HIGH |
 | **Microbiology** | 0 | 20 | 0% | MEDIUM |
-| **Medicine** | 1 | 60 | 2% | CRITICAL |
-| **Surgery** | 1 | 35 | 3% | CRITICAL |
-| **ObsGyn** | 1 | 30 | 3% | HIGH |
-| **Pediatrics** | 1 | 30 | 3% | HIGH |
+| **Medicine** | 3 | 60 | 5% | CRITICAL |
+| **Surgery** | 2 | 35 | 6% | CRITICAL |
+| **ObsGyn** | 2 | 30 | 7% | HIGH |
+| **Pediatrics** | 2 | 30 | 7% | HIGH |
 | **PSM** | 0 | 25 | 0% | HIGH |
 | **Forensic Medicine** | 0 | 15 | 0% | MEDIUM |
 | **ENT** | 0 | 12 | 0% | MEDIUM |
@@ -264,14 +265,14 @@
 
 ---
 
-### MEDICINE (1/60 completed) ⭐⭐⭐⭐⭐ CRITICAL
+### MEDICINE (3/60 completed) ⭐⭐⭐⭐⭐ CRITICAL
 
 #### ✅ Completed
 1. Diabetes Mellitus
+2. Ischemic Heart Disease (ACS, MI) ✅
+3. Heart Failure ✅
 
-#### ⏳ Pending - Cardiology (10 topics)
-2. Ischemic Heart Disease (ACS, MI)
-3. Heart Failure
+#### ⏳ Pending - Cardiology (8 topics)
 4. Arrhythmias (AF, VT, Heart Blocks)
 5. Hypertension
 6. Infective Endocarditis
@@ -349,15 +350,15 @@
 
 ---
 
-### SURGERY (1/35 completed) ⭐⭐⭐⭐⭐ CRITICAL
+### SURGERY (2/35 completed) ⭐⭐⭐⭐⭐ CRITICAL
 
 #### ✅ Completed
 1. Thyroid Disorders
+2. Acute Appendicitis ✅
 
-#### ⏳ Pending - GI Surgery (12 topics)
-2. Acute Abdomen
-3. Peptic Ulcer Perforation
-4. Acute Appendicitis
+#### ⏳ Pending - GI Surgery (11 topics)
+3. Acute Abdomen
+4. Peptic Ulcer Perforation
 5. Intestinal Obstruction
 6. Hernias (Inguinal, Femoral, Umbilical)
 7. Esophageal Disorders (Achalasia, Cancer)
@@ -404,16 +405,16 @@
 
 ---
 
-### OBSTETRICS & GYNECOLOGY (1/30 completed) ⭐⭐⭐⭐⭐
+### OBSTETRICS & GYNECOLOGY (2/30 completed) ⭐⭐⭐⭐⭐
 
 #### ✅ Completed
 1. Hypertensive Disorders of Pregnancy
+2. Postpartum Hemorrhage ✅
 
-#### ⏳ Pending - Obstetrics (15 topics)
-2. Normal Pregnancy & Antenatal Care
-3. Normal Labor & Delivery
-4. Abnormal Labor (Dystocia, Malpresentations)
-5. Postpartum Hemorrhage
+#### ⏳ Pending - Obstetrics (14 topics)
+3. Normal Pregnancy & Antenatal Care
+4. Normal Labor & Delivery
+5. Abnormal Labor (Dystocia, Malpresentations)
 6. Abortion (Types & Management)
 7. Ectopic Pregnancy
 8. Gestational Trophoblastic Disease
@@ -444,14 +445,14 @@
 
 ---
 
-### PEDIATRICS (1/30 completed) ⭐⭐⭐⭐⭐
+### PEDIATRICS (2/30 completed) ⭐⭐⭐⭐⭐
 
 #### ✅ Completed
 1. Growth & Development
+2. Neonatal Jaundice ✅
 
-#### ⏳ Pending - Neonatology (8 topics)
-2. Birth Asphyxia & Resuscitation
-3. Neonatal Jaundice
+#### ⏳ Pending - Neonatology (7 topics)
+3. Birth Asphyxia & Resuscitation
 4. Respiratory Distress Syndrome
 5. Neonatal Sepsis
 6. Hypoglycemia & Hypocalcemia

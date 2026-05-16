@@ -1,0 +1,179 @@
+site_name: NEET PG Study Materials
+site_description: Comprehensive, high-yield study materials for NEET PG preparation covering all major subjects
+site_author: NEET PG Study Group
+site_url: https://lowcode-apps.github.io/neet-pg
+
+# Repository
+repo_name: neet-pg
+repo_url: https://github.com/lowcode-apps/neet-pg
+edit_uri: edit/main/
+
+# Copyright
+copyright: Copyright &copy; 2026 NEET PG Study Materials
+
+# Configuration
+theme:
+  name: material
+  language: en
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  features:
+    # Navigation
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+
+    # Search
+    - search.suggest
+    - search.highlight
+    - search.share
+
+    # Table of contents
+    - toc.follow
+    - toc.integrate
+
+    # Content
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - tags
+
+# Extensions
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 4
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Navigation
+nav:
+  - Home: index.md
+
+  - Anatomy:
+    - Cranial Nerves: anatomy/01_Cranial_Nerves.md
+    - Brachial Plexus: anatomy/02_Brachial_Plexus.md
+    - GI Blood Supply: anatomy/03_GI_Blood_Supply.md
+    - Heart Anatomy: anatomy/04_Heart_Anatomy.md
+    - Lungs & Respiratory System: anatomy/05_Lungs_and_Respiratory_System.md
+
+  - Physiology:
+    - Cardiac Cycle: physiology/01-cardiac-cycle.md
+    - Renal Physiology: physiology/01_Renal_Physiology.md
+    - Respiratory Physiology: physiology/02_Respiratory_Physiology.md
+    - Gastrointestinal Physiology: physiology/03_Gastrointestinal_Physiology.md
+
+  - Pathology:
+    - Cell Injury & Adaptation: pathology/01_Cell_Injury_and_Adaptation.md
+    - Inflammation: pathology/02_Inflammation.md
+    - Neoplasia: pathology/03_Neoplasia.md
+
+  - Pharmacology:
+    - Antimicrobials: pharmacology/01_Antimicrobials.md
+    - Cardiovascular Drugs: pharmacology/02_Cardiovascular_Drugs.md
+
+  - Medicine:
+    - Diabetes Mellitus: medicine/01_Diabetes_Mellitus.md
+    - Chronic Kidney Disease: medicine/02_Chronic_Kidney_Disease.md
+    - Ischemic Heart Disease: medicine/02_Ischemic_Heart_Disease.md
+    - Heart Failure: medicine/03_Heart_Failure.md
+
+  - Surgery:
+    - Thyroid Disorders: surgery/01_Thyroid_Disorders.md
+    - Acute Abdomen: surgery/02_Acute_Abdomen.md
+    - Acute Appendicitis: surgery/02_Acute_Appendicitis.md
+
+  - Obstetrics & Gynecology:
+    - Hypertensive Disorders of Pregnancy: obsgyn/01_Hypertensive_Disorders_of_Pregnancy.md
+    - Antepartum Hemorrhage: obsgyn/02_Antepartum_Hemorrhage.md
+    - Postpartum Hemorrhage: obsgyn/02_Postpartum_Hemorrhage.md
+
+  - Pediatrics:
+    - Growth & Development: pediatrics/01_Growth_and_Development.md
+    - Neonatal Jaundice: pediatrics/02_Neonatal_Jaundice.md
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lowcode-apps
+
+  generator: false
+
+# Mathematical expressions support
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
