@@ -65,6 +65,9 @@ theme:
     - content.tabs.link
     - content.tooltips
 
+    # Announcement bar
+    - announce.dismiss
+
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil
@@ -137,19 +140,66 @@ nav:
     - Gastrointestinal Physiology: physiology/03_Gastrointestinal_Physiology.md
 
   - Pathology:
+    - Atherosclerosis: pathology/01_Atherosclerosis.md
     - Cell Injury & Adaptation: pathology/01_Cell_Injury_and_Adaptation.md
     - Inflammation: pathology/02_Inflammation.md
+    - Ischemic Heart Disease: pathology/02_Ischemic_Heart_Disease.md
+    - Cardiomyopathies: pathology/03_Cardiomyopathies.md
     - Neoplasia: pathology/03_Neoplasia.md
+    - Pneumonia: pathology/04_Pneumonia.md
+    - Tuberculosis Pathology: pathology/05_Tuberculosis_Pathology.md
 
   - Pharmacology:
     - Antimicrobials: pharmacology/01_Antimicrobials.md
     - Cardiovascular Drugs: pharmacology/02_Cardiovascular_Drugs.md
+    - Cholinergic & Anticholinergic: pharmacology/03_Cholinergic_Anticholinergic_Drugs.md
+    - Adrenergic Agonists: pharmacology/04_Adrenergic_Agonists.md
+    - Adrenergic Antagonists: pharmacology/05_Adrenergic_Antagonists.md
+    - Skeletal Muscle Relaxants: pharmacology/06_Skeletal_Muscle_Relaxants.md
+    - Local Anesthetics: pharmacology/07_Local_Anesthetics.md
+    - General Anesthetics: pharmacology/08_General_Anesthetics.md
+    - Antihypertensives: pharmacology/09_Antihypertensives_Detailed.md
+    - Antianginal & Antiarrhythmic: pharmacology/10_Antianginal_Antiarrhythmic_Drugs.md
+    - Diuretics: pharmacology/11_Diuretics.md
+    - Antidiabetic Drugs: pharmacology/12_Antidiabetic_Drugs.md
+    - NSAIDs & Analgesics: pharmacology/13_NSAIDs_Analgesics.md
+    - Anticoagulants & Antiplatelets: pharmacology/14_Anticoagulants_Antiplatelets.md
+    - Corticosteroids: pharmacology/15_Corticosteroids.md
 
   - Medicine:
-    - Diabetes Mellitus: medicine/01_Diabetes_Mellitus.md
-    - Chronic Kidney Disease: medicine/02_Chronic_Kidney_Disease.md
-    - Ischemic Heart Disease: medicine/02_Ischemic_Heart_Disease.md
-    - Heart Failure: medicine/03_Heart_Failure.md
+    - Cardiovascular:
+      - Diabetes Mellitus: medicine/01_Diabetes_Mellitus.md
+      - Ischemic Heart Disease: medicine/02_Ischemic_Heart_Disease.md
+      - Heart Failure: medicine/03_Heart_Failure.md
+      - Arrhythmias: medicine/04_Arrhythmias.md
+      - Hypertension: medicine/05_Hypertension.md
+      - Infective Endocarditis: medicine/06_Infective_Endocarditis.md
+      - Rheumatic Heart Disease: medicine/07_Rheumatic_Heart_Disease.md
+      - Valvular Heart Disease: medicine/08_Valvular_Heart_Disease.md
+      - Cardiomyopathies: medicine/09_Cardiomyopathies.md
+      - Pericardial Diseases: medicine/10_Pericardial_Diseases.md
+    - Respiratory:
+      - Asthma: medicine/11_Asthma.md
+      - COPD: medicine/12_COPD.md
+      - Pneumonia: medicine/13_Pneumonia.md
+      - Tuberculosis: medicine/14_Tuberculosis.md
+      - Interstitial Lung Disease: medicine/15_Interstitial_Lung_Disease.md
+      - Bronchiectasis: medicine/16_Bronchiectasis.md
+      - Lung Cancer: medicine/17_Lung_Cancer.md
+      - Pleural Effusion: medicine/18_Pleural_Effusion.md
+      - Pulmonary Embolism: medicine/19_Pulmonary_Embolism.md
+      - Respiratory Failure: medicine/20_Respiratory_Failure.md
+    - Gastroenterology:
+      - GERD & Peptic Ulcer: medicine/21_GERD_and_Peptic_Ulcer_Disease.md
+      - Inflammatory Bowel Disease: medicine/22_Inflammatory_Bowel_Disease.md
+      - Acute & Chronic Diarrhea: medicine/23_Acute_and_Chronic_Diarrhea.md
+      - GI Bleeding: medicine/24_GI_Bleeding.md
+      - Liver Cirrhosis: medicine/25_Liver_Cirrhosis.md
+      - Hepatitis: medicine/26_Hepatitis.md
+      - Pancreatitis: medicine/27_Pancreatitis.md
+    - Nephrology:
+      - Acute Kidney Injury: medicine/28_Acute_Kidney_Injury.md
+      - Chronic Kidney Disease: medicine/02_Chronic_Kidney_Disease.md
 
   - Surgery:
     - Thyroid Disorders: surgery/01_Thyroid_Disorders.md
@@ -170,8 +220,17 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/lowcode-apps
+    - icon: fontawesome/solid/file-lines
+      link: https://lowcode-apps.github.io/neet-pg-references/
+      name: Question Papers & References
 
   generator: false
+
+  # Add custom navigation items
+  alternate:
+    - name: Question Papers & References
+      link: https://lowcode-apps.github.io/neet-pg-references/
+      lang: en
 
 # Mathematical expressions support
 extra_javascript:

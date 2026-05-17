@@ -379,11 +379,11 @@ Named according to relation with **Axillary artery**
 
 ### Terminal Branches (Lateral to Medial)
 "**M**y **A**unt **R**aised **M**y **U**ncle"
-- **M**usculocutaneous
-- **A**xillary
-- **R**adial
-- **M**edian
-- **U**lnar
+- **Musculocutaneous
+- **Axillary
+- **Radial
+- **Median
+- **Ulnar
 
 ### Cords Formation
 - **L**ateral cord: **L**ateral + **L**ateral (C5, C6, C7 anterior divisions)

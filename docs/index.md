@@ -2,6 +2,11 @@
 
 Comprehensive, high-yield study materials for NEET PG 2026 preparation covering all major subjects.
 
+!!! tip "Practice with Question Papers"
+    Master the theory here, then test yourself with **[NEET PG Question Papers & References](https://lowcode-apps.github.io/neet-pg-references/)**
+
+    Practice makes perfect - use both resources together for complete exam preparation!
+
 ---
 
 ## Overview
